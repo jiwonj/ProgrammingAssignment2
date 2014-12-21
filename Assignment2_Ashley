@@ -1,0 +1,27 @@
+## This is to create the program to calculate simple 2x2 matrix inverse
+
+
+## x is the matrix with 2x2 elements
+
+makeCacheMatrix <- function(x = matrix(1:100,2,2)) {
+  
+  
+  d <- c(x[1,1]*x[2,2]-x[2,1]*x[1.2])
+  
+}
+
+
+if(is.na(1/d)) {
+  makeCacheMatrix = print("no inverse")
+  
+} else {
+  
+  
+  cacheSolve <- solve(x) 
+  ## Return a matrix that is the inverse of 'x'
+  mkaeCacheMatrix = print(cacheSolve)
+  
+  
+  cacheSolve%*%x
+  
+}
